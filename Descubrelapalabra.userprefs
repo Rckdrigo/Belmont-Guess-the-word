@@ -1,9 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../Buscalaimagen/Assets/ObjectReference.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameStateBehaviour.cs">
     <Files>
-      <File FileName="../Buscalaimagen/Assets/Scripts/ObjectsToSearch.cs" Line="16" Column="2" />
-      <File FileName="../Buscalaimagen/Assets/ObjectReference.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameStateBehaviour.cs" Line="81" Column="27" />
+      <File FileName="Assets/Scripts/Timer.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

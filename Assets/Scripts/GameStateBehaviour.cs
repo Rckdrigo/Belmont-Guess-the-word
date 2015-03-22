@@ -42,7 +42,6 @@ public class GameStateBehaviour : Singleton<GameStateBehaviour> {
 
 	public void AddPoint(){
 		actualPoints++;
-//		print (actualPoints +"/"+ maxPoints);
 		if(actualPoints == maxPoints){
 			GameOver();
 			message.sprite = win;
@@ -79,6 +78,7 @@ public class GameStateBehaviour : Singleton<GameStateBehaviour> {
 	public void  Return (){
 		GameOver();
 		Clean();
+		Timer.Instance.StopAudio();
 		anim.SetTrigger("Return");
 	}
 	
