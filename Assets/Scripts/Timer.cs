@@ -28,6 +28,10 @@ public class Timer : Singleton<Timer> {
 		timerActive = false;
 	}
 	
+	public void StopAudio(){
+		GetComponent<AudioSource>().Stop();
+	}
+	
 	public void SetTimer(float maxTime){
 		initialTime = Time.time;
 		time = maxTime;

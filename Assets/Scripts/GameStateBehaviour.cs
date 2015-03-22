@@ -47,6 +47,7 @@ public class GameStateBehaviour : Singleton<GameStateBehaviour> {
 			GameOver();
 			message.sprite = win;
 			GetComponent<AudioSource>().PlayOneShot(winClip);
+			Timer.Instance.StopAudio();
 			anim.SetTrigger("Results");
 		}
 	}
